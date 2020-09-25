@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:layout_gravity="center"
+    android:background="@color/dialog_bg">
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/material_design_ball_clip_rotate_multiple_loader"
+        android:layout_width="50dp"
+        android:layout_height="59dp"
+        android:visibility="visible"
+        app:indicator="BallGridBeat"
+        app:indicator_color="#fff"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading...."
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
